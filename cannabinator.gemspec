@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "haikunator/version"
+require "cannabinator/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "haikunator"
-  spec.version       = Haikunator::VERSION
-  spec.authors       = ["Usman Bashir"]
-  spec.email         = ["me@usmanbashir.com"]
-  spec.summary       = "Heroku-like random name generator."
+  spec.name          = "cannabinator"
+  spec.version       = Cannabinator::VERSION
+  spec.authors       = ["PincannaRx"]
+  spec.email         = ["web@pincannarx.com"]
+  spec.summary       = "Heroku-like random name generator with a Pincanna twist."
   spec.description   = "Generate memorable random names to use in your apps"\
                        " or anywhere else."
-  spec.homepage      = "https://github.com/usmanbashir/haikunator"
+  spec.homepage      = "https://github.com/pincannarx/haikunator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
